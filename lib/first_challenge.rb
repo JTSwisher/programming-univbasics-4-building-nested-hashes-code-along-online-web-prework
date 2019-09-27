@@ -44,18 +44,18 @@ def first_challenge
          :status => "Alive"
        }
 
-       :heroines_friends => {
-         :friend_1 => {
-           :name => "Steven",
-           :age => "30",
-           :attitude => "confused"
-         },
-         :friend_2 => {
-           :name => "Nurse",
-           :age => "44",
-           :attitude => "worried"
-         }
-       }
+      :heroine_friends=> [
+      {
+        :name => "Steven",
+        :age => "30",
+        :attitude => "confused"
+      },
+      {
+        :name => "Nurse",
+        :age => "44",
+        :attitude => "worried"
+      }
+    ]
      }
    }
 end
